@@ -182,7 +182,7 @@ speller:
 # 分尖团后 v => ü 的改写条件也要相应地扩充：
   #'translator/preedit_format':
   #  - "xform/([nljqxyzcs])v/$1ü/"
-		
+	
 translator:
 #  enable_charset_filter:                    # 是否开启字符集过滤〔仅table_translator有效。启用cjk_minifier后可适用于script_translator〕
 
@@ -208,7 +208,7 @@ translator:
 
   dictionary: e_pinyin.extended                # 翻译器将调取此字典文件
   prism: e_pinyin                              # 设定由此主翻译器的speller生成的棱镜文件名，或此副编译器调用的棱镜名,prism 要以本输入方案的名称来命名，以免把其它方案的拼写映射表覆盖掉
-	
+
 #  user_dict: xwords                                # 设定用户词典名，否则默认为方案名
 
   db_class: userdb                                # 设定用户词典类型，可设tabledb〔文本〕或userdb〔二进制〕
@@ -219,7 +219,7 @@ translator:
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
     - "xform/([szc])([aoe])hng/$1h$2ng/"      # shang 替换 sahng 显示
-		
+
 #  comment_format:                            # 提示码自定义
 
 #  always_show_comments:                     # 允许始终显示候选词注解
