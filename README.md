@@ -2,9 +2,11 @@
 
 *Rime 自定义拼音方案 &amp;&amp; 高质量词库*  
 
----
-之前项目：https://github.com/colorsbird/ ，被ban了
----
+---  
+
+之前项目：https://github.com/colorsbird/ ，由于微软(Microsoft)强制要求手机号验证 outlook 邮箱，无奈放弃
+ 
+---  
 
 **感谢以下有关项目与个人：**  
 > 1. 深蓝词典，https://github.com/studyzy/imewlconverte ，输入法词库转换程序，缺乏多音字支持
