@@ -1,0 +1,78 @@
+# Rime dictionary   encoding: utf-8
+# 
+# 
+######################################### 这是很重要的事 ###########################################################
+##                                                                                                                ##
+##           除非特别标明，所有文件都已相互去重，两两相斥，也就是在 A 文件内的词汇也不会出现在 B 文件内           ##
+##                                                                                                                ##
+##           不常用的词典应在养一段自己的词库后注释掉，以提高词典效率                                             ##
+##                                                                                                                ##
+####################################################################################################################
+# 
+# 
+# 
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+# 
+# 
+# 每个文档的具体信息，请参阅具体文档内的注释
+# 
+# my_custom_phrase.txt 此文本不在此文件处理范围内，但值得留意，以免您进行分享时里面包含个人习惯信息
+# 
+# 
+# 如果不需要加载某个词库请将其用「#」注释掉。
+# 双拼不支持 e_pinyin.cn_en 词库，请用户手动禁用。
+# 多音字时，需手动添加注音，如：复校	fu jiao	1
+# 
+# 备注数字为文件内权重，如：200 500，根据需要自由修改权重
+# 
+# 
+# 于重新部署后生效
+# 
+
+---
+name: e_pinyin.extended
+version: "2019.05"
+sort: by_weight    # 词条初始排序方式，可选填 by_weight（按词频高低排序）或 original（保持原码表中的顺序）
+use_preset_vocabulary: false
+
+import_tables:
+  - e_pinyin                             # 常用单字，github.com/rime-aca/character_set
+#  - e_pinyin.word_duoyin                 # 难处理的多音字，想学五笔了：）
+  - e_pinyin.word_extend                 # 单字扩展
+#  - e_pinyin.word_plus                   # 单字扩展，非常用字，特殊字，古字
+
+  - e_pinyin.school                      # 院校场所
+  - e_pinyin.school_high_good            # 985、211、双一流院校名录，截止2018年
+  - e_pinyin.school_high_simply          #0 一些高校的简称
+#  - e_pinyin.school_high                 #0 教育部普通高等院校名录
+#  - e_pinyin.school_high_web             # 一些高校的主页等网址
+#  - e_pinyin.school_high_others          #0 普通高等院校之外其它性质院校名录
+
+  - e_pinyin.cet_46                      #0 四六级英语单词2017，如需大量输入英文，请启用并切换至en_vocabulary方案
+#  - e_pinyin.cet46_plus                  # 包含除四六级单词以外的托福、雅思、研究生入学要求的单词
+
+
+  - e_pinyin.esymbol                     #0 一些特殊符号，此文件目的为摆脱非 emoji 符号对 opencc 的依赖
+
+  - e_pinyin.food                        #0 食物
+#  - e_pinyin.king                        #0 历代帝王
+#  - e_pinyin.baijiu                      #0 白酒工业术语
+#  - e_pinyin.animal                      #0 动物
+#  - e_pinyin.animal_birdPlus             #0 动物补充
+#  - e_pinyin.plantPlus                   #0 植物补充
+
+
+
+  - e_pinyin.nation56                    # 民族组成
+
+#  - e_pinyin.TCM                         #0 中药
+#  - e_pinyin.skill_name                  #0 国家职业技能标准目录2017
+
+#  - e_pinyin.movie_aosika                # 0 历年奥斯卡影片，不与除含movie之外的文件进行去重
+#  - e_pinyin.movie_good                  # 一些优秀的影片
+
+
+
