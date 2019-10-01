@@ -9,6 +9,7 @@
  
 ---  
 
+*此项目预计耗时 3 年*  
 **感谢以下有关项目与个人：**  
 > 1. 深蓝词典，https://github.com/studyzy/imewlconverte ，输入法词库转换程序，缺乏多音字支持
 
